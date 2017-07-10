@@ -1,27 +1,20 @@
 # Node Express ES6 Starter
 
-A barebones Node.js app using [Express 4](http://expressjs.com/).
+Sample Node.js app using Express 4 and Atatus Node.js APM.
 
 ## Running Locally
 
 Make sure you have [Node.js](http://nodejs.org/) and the [Heroku Toolbelt](https://toolbelt.heroku.com/) installed.
 
 ```sh
-git clone https://github.com/mikeerickson/node-express-es6-starter # or clone your own fork
-cd node-express-es6-starter
+git clone git@github.com:atatus/node-express-es6-atatus-sample.git
+cd node-express-es6-atatus-sample
 npm install
 npm start
 ```
 
 Your app should now be running on [localhost:3000](http://localhost:3000/).
 
-## Deploying to Heroku
-
-```
-heroku create
-git push heroku master
-heroku open
-```
 
 Alternatively, you can deploy your own copy of the app using the web-based flow:
 
