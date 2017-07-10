@@ -20,6 +20,9 @@ app.use(express.static(__dirname + '/public'))  // static directory
 
 // Custom routes (not convered by static files, uses twig template engine)
 app.get('/', (req, res) => {
+
+  throw new Error('atatus test error');
+
   res.render('index.twig', {
     firstName: 'Mike',
     lastName: 'Erickson'
@@ -34,3 +37,5 @@ app.listen(app.get('port'), () => {
   const serverInfo = chalk.yellow(`http://localhost:${app.get('port')}`);
   msg.success('=', _.pad(`Application Running On: ${serverInfo}`, 80), '=')
 })
+
+module.exports = app;
