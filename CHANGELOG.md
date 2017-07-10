@@ -1,4 +1,4 @@
-# node-express-es6-starter
+# node-express-es6-atatus-sample
 
 ### Overview
 See README.md for complete details of this project
